@@ -1,0 +1,42 @@
+.advantage {
+    background-color: #F6F6F6;
+    padding: 49px 0 80px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 70px;
+    }
+    &__icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        max-width: 236px;
+    }
+    &__subheader {
+        margin-top: 35px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #0D0D0D;
+    }
+    &__text {
+        margin-top: 13px;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        a {
+            color:#FF0000;
+            text-decoration: underline;
+        }
+    }
+    &__icon {
+        &_animated {
+            animation: heartbeat 2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+}
+

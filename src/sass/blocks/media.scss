@@ -1,0 +1,235 @@
+@media ( max-width: 991px ) {
+    .promo {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+    .advantage {
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
+    .consultation {
+        padding: 100px 0 92px 30px;
+
+    }
+    .carousel {
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+        &__tab {
+            width: 200px;
+        }
+    }
+    .animate__fadeInUp {
+        animation-name: none;
+
+    }
+    .feed {
+        padding-bottom: 40px;
+        &__round {
+            margin-right: 30px;
+            img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        &__text {
+            
+            font-size: 12px;
+            width: 400px;
+            min-height: 160px;
+            
+        }
+    }
+        
+}
+@media ( max-width: 767px ) {
+    .promo {
+        &__header {
+            font-size:35px;
+            line-height: 39px;
+        }
+    }
+    .advantage {
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        &__icons {
+            max-width: 290px;
+            margin-top: 26px;
+        }
+    }
+    .carousel {
+        padding: 40px 0;
+
+    }
+    .catalog {
+        padding-bottom: 40px;
+        &__tab {
+            width: 155px;
+            font-size: 15px;
+        }
+        &-item {
+            width: 275px;
+        }
+    }
+
+}
+@media ( max-width: 575px ) {
+    .promo {
+        background: url(../img/main_bg.jpg) 17% center/cover no-repeat;
+        .header {
+            flex-direction: column;
+            &__official {
+                margin-top: 10px;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            display: none;
+        }
+        &__icons {
+            align-items:center;
+            width: 300px;
+            margin-top: 30px;
+
+        }
+        &__icon {
+            margin-bottom: 15px;
+            width: 100px;
+            font-size: 12px;
+        }
+        &__wrapper {
+            margin-top: 40px;
+        }
+    }
+    .button {
+        &_main {
+            width: 260px;
+            margin-top: 30px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .consultation {
+        min-height: 500px;
+        padding: 40px 10px;
+        &__descr {
+            display: none;
+        }
+    }
+    .feed-form {
+        margin: 20px auto;
+    }
+
+    .catalog {
+        &__tabs {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__tab {
+            width: 100%;
+            transform: none;
+            div {
+                transform: none;
+
+            }
+
+        }
+ 
+    }
+    .feed {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__round {
+            margin: 30px 0 0 30px;
+            img {
+                width: 160px;
+                height: 160px;
+            }
+        }
+        &__text {
+            width: 300px;
+            text-align: center;
+        }
+        &__descr {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__header {
+            margin-top: 30px;
+        }
+    }
+    .footer {
+        height: 100%;
+        &__info {
+            width: 100%;
+        }
+        &__social {
+            &-item {
+                margin: 0px 5px;
+            }
+        }
+    }
+    iframe {
+        display: none;
+    }
+    .modal {
+        width: 300px;
+        min-height: 280px;
+        padding: 20px 20px;
+        label.error {
+            border: none;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        &__close {
+            top: 5px;
+            right: 5px;
+            font-size: 30px;
+        }
+    }
+    .feed {
+        &-form {
+            width: 240px;
+            margin: 5px auto;
+            input {
+                margin-bottom: 5px;
+            }
+        }
+
+    }
+    
+}
+
